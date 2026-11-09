@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Distributed Job Queue System
 
 A Distributed background job processing system build with **Go, Gin, Redis, and PostgreSQL** where tasks are queued and executed asynchronously by worker services. Redis acts as the job queue, PostgreSQL stores persistent job metadata, and worker pools process jobs concurrently. This design keeps APIs responsive while ensuring scalability, reliability, and fault tolerance.
@@ -183,3 +184,6 @@ $ docker exec -it job_queue_postgres psql -U admin -d job_queue
 # 🧑‍💻 Thanks Giving 🌟
 
 
+=======
+# distributed_queue_management
+>>>>>>> 601aaecaa5c260a393787c3b488dde1a5bcd3096
